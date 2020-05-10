@@ -1,0 +1,7 @@
+<a href="#/">Back to Search</a>
+<h2>Forecast for :</h2>
+{{city}}
+<div ng-repeat="w in weatherResultsArray">
+        <forecast-card weather-day="w" convert-to-standard="convertToCelsius(temp)" standard-date="formatDate(date)" date-format="MMMM D, Y" ></forecast-card>
+</div>
+

@@ -1,0 +1,4 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Date: {{standardDate({date: weatherDay.date}) | date:date-format }} </div>
+    <div class="panel-body">Temperature is: {{convertToStandard({temp : weatherDay.temp})}} &degC </div>
+</div>
